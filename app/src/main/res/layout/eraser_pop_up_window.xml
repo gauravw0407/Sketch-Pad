@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/popupElement1"
+    android:padding="5dp"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:id="@+id/erase1Btn"
+        android:layout_weight="1"
+        android:background="#FFDDDDDD"
+        android:layout_margin="2dp"
+        android:src="@drawable/erasesize1">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:id="@+id/erase2Btn"
+        android:layout_weight="1"
+        android:background="#FFDDDDDD"
+        android:layout_margin="2dp"
+        android:src="@drawable/erasesize2">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:id="@+id/erase3Btn"
+        android:layout_weight="1"
+        android:background="#FFDDDDDD"
+        android:layout_margin="2dp"
+        android:src="@drawable/erasesize3">
+    </ImageButton>
+
+    <ImageButton
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:id="@+id/erase4Btn"
+        android:layout_weight="1"
+        android:background="#FFDDDDDD"
+        android:layout_margin="2dp"
+        android:src="@drawable/erasesize4">
+    </ImageButton>
+
+</LinearLayout>

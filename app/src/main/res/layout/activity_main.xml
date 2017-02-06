@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDDDDDD"
+    tools:context="com.example.gaurav.sketchpad.MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/buttons"
+        android:orientation="horizontal"
+        android:layout_weight="1.5"
+        android:padding="5dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/newFileBtn"
+            android:src="@drawable/newfile1"
+            android:background="#FFDDDDDD"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/brushBtn"
+            android:src="@drawable/brush3"
+            android:background="#FFDDDDDD"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/eraseBtn"
+            android:src="@drawable/erase1"
+            android:background="#FFDDDDDD"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/deleteBtn"
+            android:src="@drawable/undo2"
+            android:background="#FFDDDDDD"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/saveBtn"
+            android:src="@drawable/save1"
+            android:background="#FFDDDDDD"/>
+
+    </LinearLayout>
+
+
+
+    <com.example.gaurav.sketchpad.DrawingView
+        android:id="@+id/drawing"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="5dp"
+        android:background="#FFFFFFFF"
+        android:layout_weight="8.5"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/colors"
+        android:orientation="horizontal"
+        android:layout_weight="0.8"
+        android:padding="3dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF000000"
+            android:tag="#FF000000"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFF66AA"
+            android:tag="#FFFF66AA"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFFFF00"
+            android:tag="#FFFFFF00"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFF9900"
+            android:tag="#FFFF9900"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFF0000"
+            android:tag="#FFFF0000"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF00DDDD"
+            android:tag="#FF00DDDD"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF0000FF"
+            android:tag="#FF0000FF"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFAA00FF"
+            android:tag="#FFAA00FF"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF00FF00"
+            android:tag="#FF00FF00"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            />
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FF00AA00"
+            android:tag="#FF00AA00"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            />
+
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFAA3333"
+            android:tag="#FFAA3333"
+            android:onClick="paintClicked"
+            android:src="@drawable/paint"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
